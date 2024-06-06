@@ -39,7 +39,7 @@ local M = {}
 ---@type PaletteBackgrounds
 local hard_background = {
 	dark = {
-		bg_dim = "#1e2326",
+		bg_dim = "#0d1617",
 		bg0 = "#272e33",
 		bg1 = "#2e383c",
 		bg2 = "#374145",
