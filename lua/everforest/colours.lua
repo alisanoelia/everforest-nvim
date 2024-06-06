@@ -40,9 +40,9 @@ local M = {}
 local hard_background = {
 	dark = {
 		bg_dim = "#0d1617",
-		bg0 = "#272e33",
-		bg1 = "#2e383c",
-		bg2 = "#374145",
+		bg0 = "#0d1617",
+		bg1 = "#0d1617",
+		bg2 = "#0d1617",
 		bg3 = "#414b50",
 		bg4 = "#495156",
 		bg5 = "#4f5b58",
@@ -52,27 +52,13 @@ local hard_background = {
 		bg_blue = "#384b55",
 		bg_yellow = "#45443c",
 	},
-	light = {
-		bg_dim = "#f2efdf",
-		bg0 = "#fffbef",
-		bg1 = "#f8f5e4",
-		bg2 = "#f2efdf",
-		bg3 = "#edeada",
-		bg4 = "#e8e5d5",
-		bg5 = "#bec5b2",
-		bg_visual = "#f0f2d4",
-		bg_red = "#ffe7de",
-		bg_green = "#f3f5d9",
-		bg_blue = "#ecf5ed",
-		bg_yellow = "#fef2d5",
-	},
 }
 
 
 ---@type table<Backgrounds, PaletteBase>
 local base_palette = {
 	dark = {
-		fg = "#5c6a72",
+		fg = "#d1d1d1",
 		red = "#f85552",
 		orange = "#f57d26",
 		yellow = "#dfa000",
